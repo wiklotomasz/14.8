@@ -1,0 +1,32 @@
+{
+  "name": "nauka_npm",
+  "version": "1.0.0",
+  "description": "Testowy plik package.json do nauki npm'a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "server": "http-server -c-1",
+    "babel": "babel --plugins transform-react-jsx components"
+  },
+  "keywords": [
+    "nauka",
+    "npm",
+    "node"
+  ],
+  "author": "kiper",
+  "license": "ISC",
+  "dependencies": {
+    "babel-standalone": "^6.26.0",
+    "colors": "^1.1.2",
+    "formidable": "^1.1.1",
+    "stat-mode": "^0.2.2",
+    "webpack": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "express": "^4.16.2",
+    "http-server": "^0.11.1"
+  }
+}
